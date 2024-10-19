@@ -14,7 +14,7 @@ config.read("config.ini")
 
 bot = telebot.TeleBot(config["BOT"]["token"])
 
-# تنظیمات API Spotify
+# تنظیمات API Spotify  
 spotify_client_id = config["SPOTIFY"]["spotify_client_id"]
 spotify_client_secret = config["SPOTIFY"]["spotify_client_secret"]
 spotify_credentials = SpotifyClientCredentials(
